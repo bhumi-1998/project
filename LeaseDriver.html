@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style type="text/css">
+	
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  padding: 10px;
+  background: #f1f1f1;
+}
+
+/* Header/Blog Title */
+
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 45%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 55%;
+  background-color: #f1f1f1;
+  padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+  background-color: #DAE0E2;
+   max-width: 100%;
+  padding: 20px;
+
+}
+
+/* Add a card effect for articles */
+.card {
+  background-color: white;
+ /* padding: 20px;*/
+  margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+/* .row:after {
+  content: "";
+  display: table;
+  clear: both;
+} */
+
+/* Footer */
+.footer {
+  padding: 20px;
+  background: #ddd;
+  margin-top: 20px;
+}
+
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 757px) {
+  .rightcolumn,.leftcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+
+
+</style>
+
+</head>
+<body>
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+     
+     
+      <div class="fakeimg" >
+      <h3 style="color:#2475B0;font-size:30px;margin-top: 10px">New Lease Driver</h3>
+      	<div style="margin-left: 29px" class="form-group">
+                    <label  for="firstName" class="col-sm- control-label">First Name*:</label>
+                    
+                    <input type="text" id="firstName" placeholder="First Name" class="form-control" autofocus>
+            </div>
+                <br>
+                <div style="margin-left: 20px" class="form-group  ">
+                       
+                    <label   for="lastName" class="col-sm-3 control-label">Middle Name:</label>
+                
+                   
+                        <input type="text" id="Middle Name" placeholder="Middle Name" class="form-control" autofocus>
+                  
+                 </div>
+                 <br>
+                <div style="margin-left: 38px" class="form-group">
+                    <label for="email" class="col-sm-3 control-label">Surname* : </label>
+                    
+                      <input type="text" id="Surname" placeholder="Surname" class="form-control" name= "email" autofocus>
+                    
+                </div>
+                    <br>
+           
+                <div style="margin-left: 67px" class="form-group">
+                    <label for="password" class="col-sm-3 control-label">Email*:</label>
+                    
+                     <input type="Email" id="Email" placeholder="Email" class="form-control">
+                
+                </div>
+                <br>
+                <div  style="margin-left:19px" class="form-group">
+                    <label for="birthDate" class="col-sm-3 control-label">Date of Birth*:</label>
+                   
+                       <input type="date" id="birthDate" class="form-control">
+              
+            </div>
+            <br>
+                <div   style="margin-left:35px" class="form-group">
+                    <label for="phoneNumber" class="col-sm-3 control-label">Telephone : </label>
+                   
+                        <input type="Telephone" id="Telephone"  class="form-control">
+                        
+            
+            </div>
+                <br>
+                <div  style="margin-left:16px" class="form-group">
+                        <label for="Height" class="col-sm-3 control-label">Mobile Phone: </label>
+                        
+                        <input type="number" id="Mobile Phone "  class="form-control">
+              
+                </div>
+                <br>
+                 <div  style="margin-left:50px" class="form-group">
+                        <label for="Job Title" class="col-sm-3 control-label">Job Title :</label>
+                       
+                        <input type="text" id="Job Title"  class="form-control">
+                    
+                </div>
+                <br>
+                <div  style="margin-left:20px" class="form-group">
+                    <label class="control-label col-sm-3">Staff Number:</label>
+                    
+                             <input type="text" id="Staff Number" class="form-control" >
+                                      
+                </div>
+     
+      
+    </div>
+    <div class="card">
+      
+      <div class="fakeimg" >
+      	   <div  class="Address">
+                        <h3 style="color:#2475B0;font-size:30px;margin-top: 10px"> Address</h3>
+                <div  style="margin-left:20px" class="form-group">
+                        <label for="phoneNumber" class="col-sm-3 control-label">Zip Code & Nr : </label>
+                      
+                            <input type="Telephone" id="Zip Code & Nr"  class="form-control">
+                   
+                </div>
+                    <br>
+                    <div style="margin-left:65px" class="form-group">
+                            <label for="Height" class="col-sm-3 control-label">Address: </label>
+                            
+                            <input type="text" id=" Address "  class="form-control">
+                      
+                    </div>
+                    <br>
+                     <div style="margin-left:47px" class="form-group">
+                            <label for="Job Title" class="col-sm-3 control-label">PostCode*:</label>
+                          
+                            <input type="text" id="Postcode"  class="form-control">
+                        
+                    </div>
+                    <br>
+                    <div style="margin-left:96px" class="form-group">
+                        <label class="control-label col-sm-3">City:</label>
+                       
+                                 <input type="text" id="City" class="form-control" >
+                                        
+                    </div>
+                    </div>
+
+            </div>
+      </div>
+      
+    </div>
+  </div>
+  <div class="rightcolumn">
+    <div class="card">
+      
+      <div class="fakeimg" >
+       <div style="color: black;" class="main">
+                <h3 style="color:#2475B0;font-size:35px;margin-top: 10px"> License</h3>
+                <div style="margin-left:110px" class="form-group">
+                        <label for="License nr" class="col-sm-3 control-label">License nr: </label>
+                      
+                        <input type="NUMBER" id="License nr "  class="form-control">
+                  
+                </div>
+                <br>
+                 <div style="margin-left:47px" class="form-group">
+                        <label for="License Valid from" class="col-sm-3 control-label">License Valid from :</label>
+                       
+                        <input type="Date" id="Date of Birth"  class="form-control">
+                 
+                </div>
+                <br>
+                <div  style="margin-left:47px" class="form-group">
+                    <label style="margin-left:25px" class="control-label col-sm-3">License Valid to:</label>
+                   
+                             <input type="Date" id="Date of Birth" class="form-control" >
+                                    
+                </div>	
+      </div>
+      
+    </div>
+    <div class="card">
+       <div  class="fakeimg">
+       	 <div  class="BudgetCategory">
+                        <h3 style="color:#2475B0;font-size:30px;margin-top: 10px"> Budget Category</h3>
+                         <div style="margin-left:75px"  class="form-group">
+                      
+                                <label   for="License nr" class="col-sm-3 control-label">Budget Category: </label>
+                                
+                                <input  type="number" id="License nr "  class="form-control">
+                    
+                       
+       </div>
+     </div>
+     </div>
+
+
+<div class="footer">
+    <div  class="CancelDriver">
+                        <h3 style="color:#2475B0;font-size:30px;margin-top: 10px"> Cancel Driver</h3>
+                        <div style="margin-left:135px"  class="form-group">
+                                <label for="License nr" class="col-sm-3 control-label">End Date: </label>
+                                
+                             <input type="Date" id="Date of Birth" class="form-control" >
+                       </div>     
+                               
+                </div> 
+</div>
+
+</body>
+</html>
+
+</body>
